@@ -1,0 +1,26 @@
+baseurl: /mcfly
+description: ''
+excludes:
+- README.md
+- utils
+keep_files:
+- assets
+languages:
+- Jupyter Notebook
+- Python
+license: Other
+markdown: kramdown
+partners:
+- logo_url: https://www.esciencecenter.nl/img/pressroom/ESCIENCE_logo_C_nl_cyanblack.jpg
+  url: https://www.esciencecenter.nl
+- logo_url: <FIXME AND OPTIONALLY REPEATME>
+  url: <FIXME AND OPTIONALLY REPEATME>
+project_name: NLeSC
+title: mcfly
+urls:
+  changelog: https://github.com/NLeSC/mcfly/blob/master/CHANGELOG.md
+  docs: https://github.com/NLeSC/mcfly/wiki
+  download: https://github.com/NLeSC/mcfly/releases/latest
+  issues: https://github.com/NLeSC/mcfly/issues
+  project: <FIXME>
+  repo: https://github.com/NLeSC/mcfly

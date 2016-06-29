@@ -1,44 +1,16 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mcfly by NLeSC</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Mcfly</h1>
-        <p></p>
-
-        <p class="view"><a href="https://github.com/NLeSC/mcfly">View the Project on GitHub <small>NLeSC/mcfly</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/NLeSC/mcfly/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/NLeSC/mcfly/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/NLeSC/mcfly">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-mcfly-github-pages" class="anchor" href="#welcome-to-mcfly-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to mcfly github pages.</h3>
-
-<p>This will contain documentation for the mcfly time series classification software.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/NLeSC">NLeSC</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+<div class="home">
+  <h3>Welcome to mcfly github pages.</h3>
+  
+  <ul>
+    {% if site.urls.docs %}
+    <li><a class="page-link" href="{{ site.urls.docs }}" title="Documentation"><span class="octicon octicon-book"></span>&nbsp;Documentation</a></li>
+    {% endif %}
+    {% if site.urls.repo %}
+    <li><a class="page-link" href="{{ site.urls.repo }}" title="Github"><span class="octicon octicon-mark-github"></span>&nbsp;GitHub</a></li>
+    {% endif %}
+  </ul>
+</div>
